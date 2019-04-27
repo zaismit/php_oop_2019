@@ -1,5 +1,5 @@
 <?php
-class Cars
+class Friends
 {
 
 }
