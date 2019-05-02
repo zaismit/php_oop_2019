@@ -13,8 +13,8 @@ class friendship
     function add_friendship( $first_friend, $second_friend )
     {
         
-       $first_friendship = ( ( $this -> name = $first_friend ) . " and ". ( $this -> name= $second_friend ) . " now friends" );
-       echo  $first_friendship;
+       $happy_friendship = ( ( $this -> name = $first_friend ) . " and ". ( $this -> name= $second_friend ) . " now friends" );
+       echo  $happy_friendship;
        
     }
     function update_friendship() 
