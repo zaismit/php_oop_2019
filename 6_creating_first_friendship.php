@@ -10,10 +10,10 @@ class friendship
     {
        
     }
-    function add_friendship($firstfriend, $secondfriend)
+    function add_friendship($first_friend, $second_friend)
     {
         
-       $firstfriendship = ( ($this -> name = $firstfriend) . " and ". ($this -> name= $secondfriend) . " now friends");
+       $first_friendship = ( ($this -> name = $first_friend) . " and ". ($this -> name= $second_friend) . " now friends");
        echo  $firstfriendship;
        
     }
@@ -29,10 +29,10 @@ class friendship
 
 $friendship_one = new friendship;
 
-$firstfriend = ($friendship_one -> name = "Alex");
+$first_friend = ($friendship_one -> name = "Alex");
 
-$secondfriend = ($friendship_one -> name = "Olga");
+$second_friend = ($friendship_one -> name = "Olga");
 
-$friendship_one->add_friendship($firstfriend,$secondfriend );
+$friendship_one->add_friendship($first_friend, $second_friend);
 
 ?>
