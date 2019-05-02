@@ -1,11 +1,6 @@
 <?php
 class friendship
 {
-	function show_friendship()
-	{
-
-	}
-	
 	function add_friendship()
 	{
 
