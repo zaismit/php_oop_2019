@@ -6,11 +6,7 @@ class friendship
     public $mobile;
     public $hobby;
     
-    function show_friendship()
-    {
-       
-    }
-    function add_friendship( $first_friend, $second_friend )
+    function add_friendship ( $first_friend, $second_friend )
     {
         
        $happy_friendship = ( ( $this -> name = $first_friend ) . " and ". ( $this -> name= $second_friend ) . " now friends<br>" );
@@ -34,7 +30,7 @@ $first_friend = ( $friendship_one -> name = "Alex" );
 
 $second_friend = ( $friendship_one -> name = "Olga" );
 
-$friendship_one->add_friendship( $first_friend, $second_friend );
+$friendship_one -> add_friendship( $first_friend, $second_friend );
 
 
 $friendship_two = new friendship;
@@ -43,6 +39,6 @@ $first_friend = ( $friendship_two -> name = "John" );
 
 $second_friend = ( $friendship_two -> name = "Evy" );
 
-$friendship_two->add_friendship( $first_friend, $second_friend );
+$friendship_two -> add_friendship ( $first_friend, $second_friend );
 
 ?>
