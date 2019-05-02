@@ -1,5 +1,5 @@
 <?php
-class Friends
+class friendship
 {
 	function show_friendship()
 	{
@@ -22,7 +22,7 @@ class Friends
 	}
 }
 
-$the_methods = get_class_methods('Friends');
+$the_methods = get_class_methods('friendship');
 
 foreach ($the_methods as $method)
 {
