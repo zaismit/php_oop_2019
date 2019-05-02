@@ -1,27 +1,22 @@
 <?php
 class Friends
 {
-	function Hi_All()
+	function show_friendship()
+	{
+
+	}
+	
+	function add_friendship()
 	{
 
 	}
 
-	function Hi_Alex()
+	function update_friendship() 
 	{
 
 	}
 
-	function Hi_Maria()
-	{
-
-	}
-
-	function Hi_Vika()
-	{
-
-	}
-
-	function Hi_Nastya()
+	function delete_friendship()
 	{
 
 	}
