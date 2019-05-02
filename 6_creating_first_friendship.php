@@ -6,10 +6,6 @@ class friendship
     public $mobile;
     public $hobby;
     
-    function show_friendship()
-    {
-       
-    }
     function add_friendship( $first_friend, $second_friend )
     {
         
@@ -17,10 +13,12 @@ class friendship
        echo  $happy_friendship;
        
     }
+    
     function update_friendship() 
     {
         
     }
+    
     function delete_friendship()
     {
         
