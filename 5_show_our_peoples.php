@@ -6,10 +6,6 @@ class friendship
     public $mobile;
     public $hobby;
     
-    function show_friendship()
-    {
-        
-    }
     function add_friendship()
     {
         
